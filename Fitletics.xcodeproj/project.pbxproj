@@ -13,6 +13,19 @@
 		049E53D8288E90AD00D170D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E53D6288E90AD00D170D7 /* Main.storyboard */; };
 		049E53DA288E90B200D170D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049E53D9288E90B200D170D7 /* Assets.xcassets */; };
 		049E53DD288E90B200D170D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E53DB288E90B200D170D7 /* LaunchScreen.storyboard */; };
+		049E53EA288E91C400D170D7 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E53E9288E91C400D170D7 /* MainTabController.swift */; };
+		049E53EC288E934700D170D7 /* CalorieNeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E53EB288E934700D170D7 /* CalorieNeedController.swift */; };
+		049E53EE288E937D00D170D7 /* BMIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E53ED288E937D00D170D7 /* BMIController.swift */; };
+		049E53F0288E93A000D170D7 /* FatRateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E53EF288E93A000D170D7 /* FatRateController.swift */; };
+		049E53F2288E983000D170D7 /* FoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E53F1288E983000D170D7 /* FoodController.swift */; };
+		049E53F4288E98C600D170D7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E53F3288E98C600D170D7 /* Extensions.swift */; };
+		049E53F6288EA45B00D170D7 /* BMIDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E53F5288EA45B00D170D7 /* BMIDetailsController.swift */; };
+		049E53F8288EA46E00D170D7 /* FatRateDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E53F7288EA46E00D170D7 /* FatRateDetailsController.swift */; };
+		049E54062891A02600D170D7 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E54052891A02600D170D7 /* Food.swift */; };
+		049E54082891A14E00D170D7 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E54072891A14E00D170D7 /* FoodCell.swift */; };
+		049E540B2891A17B00D170D7 /* FoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E540A2891A17B00D170D7 /* FoodService.swift */; };
+		04E3435D2891D67300D57826 /* FoodCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3435C2891D67300D57826 /* FoodCellViewModel.swift */; };
+		04E3435F2892B63600D57826 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3435E2892B63600D57826 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		049E53D9288E90B200D170D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049E53DC288E90B200D170D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049E53DE288E90B200D170D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049E53E9288E91C400D170D7 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		049E53EB288E934700D170D7 /* CalorieNeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieNeedController.swift; sourceTree = "<group>"; };
+		049E53ED288E937D00D170D7 /* BMIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIController.swift; sourceTree = "<group>"; };
+		049E53EF288E93A000D170D7 /* FatRateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatRateController.swift; sourceTree = "<group>"; };
+		049E53F1288E983000D170D7 /* FoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodController.swift; sourceTree = "<group>"; };
+		049E53F3288E98C600D170D7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		049E53F5288EA45B00D170D7 /* BMIDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIDetailsController.swift; sourceTree = "<group>"; };
+		049E53F7288EA46E00D170D7 /* FatRateDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatRateDetailsController.swift; sourceTree = "<group>"; };
+		049E54052891A02600D170D7 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		049E54072891A14E00D170D7 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		049E540A2891A17B00D170D7 /* FoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodService.swift; sourceTree = "<group>"; };
+		04E3435C2891D67300D57826 /* FoodCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCellViewModel.swift; sourceTree = "<group>"; };
+		04E3435E2892B63600D57826 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,12 @@
 		049E53CF288E90AD00D170D7 /* Fitletics */ = {
 			isa = PBXGroup;
 			children = (
+				049E54092891A16700D170D7 /* API */,
+				049E53E8288E919D00D170D7 /* Utils */,
+				049E53E7288E919200D170D7 /* Model */,
+				049E53E6288E918A00D170D7 /* ViewModel */,
+				049E53E5288E917700D170D7 /* View */,
+				049E53E4288E916A00D170D7 /* Controllers */,
 				049E53D0288E90AD00D170D7 /* AppDelegate.swift */,
 				049E53D2288E90AD00D170D7 /* SceneDelegate.swift */,
 				049E53D4288E90AD00D170D7 /* ViewController.swift */,
@@ -65,6 +97,61 @@
 				049E53DE288E90B200D170D7 /* Info.plist */,
 			);
 			path = Fitletics;
+			sourceTree = "<group>";
+		};
+		049E53E4288E916A00D170D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				049E53E9288E91C400D170D7 /* MainTabController.swift */,
+				049E53EB288E934700D170D7 /* CalorieNeedController.swift */,
+				049E53ED288E937D00D170D7 /* BMIController.swift */,
+				049E53EF288E93A000D170D7 /* FatRateController.swift */,
+				049E53F1288E983000D170D7 /* FoodController.swift */,
+				049E53F5288EA45B00D170D7 /* BMIDetailsController.swift */,
+				049E53F7288EA46E00D170D7 /* FatRateDetailsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		049E53E5288E917700D170D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				049E54072891A14E00D170D7 /* FoodCell.swift */,
+				04E3435E2892B63600D57826 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049E53E6288E918A00D170D7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04E3435C2891D67300D57826 /* FoodCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		049E53E7288E919200D170D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				049E54052891A02600D170D7 /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049E53E8288E919D00D170D7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				049E53F3288E98C600D170D7 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		049E54092891A16700D170D7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				049E540A2891A17B00D170D7 /* FoodService.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +225,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049E53EC288E934700D170D7 /* CalorieNeedController.swift in Sources */,
+				049E53F4288E98C600D170D7 /* Extensions.swift in Sources */,
 				049E53D5288E90AD00D170D7 /* ViewController.swift in Sources */,
+				049E53F6288EA45B00D170D7 /* BMIDetailsController.swift in Sources */,
+				04E3435F2892B63600D57826 /* CustomTextField.swift in Sources */,
+				049E54082891A14E00D170D7 /* FoodCell.swift in Sources */,
+				049E53EE288E937D00D170D7 /* BMIController.swift in Sources */,
+				049E54062891A02600D170D7 /* Food.swift in Sources */,
+				049E53F2288E983000D170D7 /* FoodController.swift in Sources */,
 				049E53D1288E90AD00D170D7 /* AppDelegate.swift in Sources */,
+				04E3435D2891D67300D57826 /* FoodCellViewModel.swift in Sources */,
+				049E53EA288E91C400D170D7 /* MainTabController.swift in Sources */,
+				049E53F0288E93A000D170D7 /* FatRateController.swift in Sources */,
 				049E53D3288E90AD00D170D7 /* SceneDelegate.swift in Sources */,
+				049E53F8288EA46E00D170D7 /* FatRateDetailsController.swift in Sources */,
+				049E540B2891A17B00D170D7 /* FoodService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
