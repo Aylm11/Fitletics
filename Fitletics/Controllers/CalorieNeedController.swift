@@ -169,7 +169,7 @@ class CalorieNeedController : UIViewController, UIPickerViewDelegate {
         let logo = UIImage(named: "fitlogo")
         let imageView = UIImageView(image:logo)
         self.navigationItem.titleView = imageView
-        //navigationController?.navigationBar.isHidden = true
+        
         
         let gradient = CAGradientLayer()
         gradient.colors = [UIColor.black.cgColor,UIColor(red: 96, green: 96, blue: 96, alpha: 100) ]
